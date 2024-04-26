@@ -24,7 +24,6 @@ func main() {
     fmt.Println(true && false)//here && means and so true and false is false
     fmt.Println(true || false)//here || is or so true or false is true
     fmt.Println(!true)// here ! is use for not
-    */
     //variable declaration
     var a = "mani"
     var b = "gupta"
@@ -42,4 +41,14 @@ func main() {
     fmt.Println(g)
     fmt.Println(h)
     fmt.Println(i)
+    */
+    const n string = "Mani"
+    fmt.Println(n)
+    const a = "mani"
+    fmt.Println(a)
+    //it's not mandatory to declare data type
+    fmt.Println(a + n)
+    var b = 35 //we must use var or const to declare anything
+    //const use for precise
+    fmt.Println(b)
 }
