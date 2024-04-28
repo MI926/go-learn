@@ -41,8 +41,8 @@ func main() {
     fmt.Println(g)
     fmt.Println(h)
     fmt.Println(i)
-    */
-    const n string = "Mani"
+    const n string = "Mani" //here this for don't change the the value
+    //we are able to to change the variable
     fmt.Println(n)
     const a = "mani"
     fmt.Println(a)
@@ -51,4 +51,32 @@ func main() {
     var b = 35 //we must use var or const to declare anything
     //const use for precise
     fmt.Println(b)
+    const n = 50
+    const d = float64(3 / n)
+    fmt.Printf("e = %.2f\n", d)
+    i := 0
+    for i <= 20 {
+        fmt.Println(i) //printing zero to 2
+        i = i + 1
+    }
+    for j := 0; j < 3; j++ {
+        fmt.Println(j)
+    }
+    //it's like the same as above it just add j at every loop
+    //here j = 0 and range is below 3
+    for i := range 3 {
+        fmt.Println(i)
+    }
+    //it's like same here range also like (0, 3)
+    */
+    a := 0
+    for {
+        fmt.Println("loop")
+        fmt.Println(a)
+        a = a + 1
+        if a > 50 {
+            break
+        }
+    }
+
 }
